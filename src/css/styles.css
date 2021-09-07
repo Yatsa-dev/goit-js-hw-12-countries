@@ -18,22 +18,28 @@ body {
 .container {
   max-width: 1160px;
   margin: auto;
+  padding: 50px 0px;
 }
 
 #search-box {
+  display: flex;
+  margin: auto;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: large;
-  padding: 8px;
+  padding: 8px 8px 8px 8px;
   max-width: 320px;
   margin-bottom: 16px;
-  background-color: darkgray;
+  background-color: white;
+
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
 }
 #search-box:hover,
 #search-box:focus,
 #search-box:active {
   outline-color: transparent;
-  border-color: transparent;
 }
+
 .country {
   width: 200px;
   height: 100px;
